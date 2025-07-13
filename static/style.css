@@ -1,0 +1,59 @@
+body.dark-theme {
+  background-color: #121212;
+  font-family: 'Segoe UI', sans-serif;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  padding: 2rem;
+}
+
+.card {
+  background-color: #1e1e1e;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 0 20px #00ffd5;
+  width: 300px;
+}
+
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+}
+
+input {
+  background: #2e2e2e;
+  color: #fff;
+}
+
+button {
+  background: #00ffd5;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #00e6b8;
+}
+
+.switch, .logout-btn {
+  display: block;
+  margin-top: 15px;
+  color: #00ffd5;
+  text-decoration: none;
+}
+
+.message {
+  margin-top: 10px;
+  color: #ff5555;
+}
